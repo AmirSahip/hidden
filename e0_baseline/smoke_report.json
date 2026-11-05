@@ -1,0 +1,36 @@
+{
+  "device": "cuda",
+  "tokenizer_round_trip": {
+    "checked": 200,
+    "failures": 0,
+    "examples": []
+  },
+  "train_rows_available": 40029,
+  "smoke_rows": 256,
+  "epoch_loss": [
+    4.319272708147764,
+    3.149955090135336
+  ],
+  "examples": [
+    {
+      "product": "COC(=O)c1ccc2cc(OC)c(C#N)cc2c1",
+      "recorded_reactants": "COC(=O)c1ccc2cc(OC)c(C(N)=O)cc2c1",
+      "generated": "COc(=cccccc(=cccccccccccccccccccccccccccccccccccccccccccccc"
+    },
+    {
+      "product": "O=C(Oc1ccc(-c2ccccc2)cc1)N1CCN2CCC1CC2",
+      "recorded_reactants": "Brc1ccccc1.CC1(C)OB(c2ccc(OC(=O)N3CCN4CCC3CC4)cc2)OC1(C)C",
+      "generated": "COc1ccc(C)c1ccc(CCC(CCC1ccc2ccc2ccccccccccccccccccccccccccccccccccc2cc2"
+    },
+    {
+      "product": "Cn1ncc2c(N3CCN(S(C)(=O)=O)CC3)nc(Cl)nc21",
+      "recorded_reactants": "CS(=O)(=O)N1CCNCC1.Cn1ncc2c(Cl)nc(Cl)nc21",
+      "generated": "CC(C)()(=)(=)(=)(=nc(nc(ncncncncncncncncncncncncncncncncncncncncncncncncncncncnc"
+    },
+    {
+      "product": "CC(C)(NC(=O)c1ccc(Cl)c(OCC2CC2)n1)c1ncon1",
+      "recorded_reactants": "CC(C)(N)c1ncon1.O=C(O)c1ccc(Cl)c(OCC2CC2)n1",
+      "generated": "CC(C)()(C(O)c(C(c(c(c(c1c2c2OCCOCCOCCOCC)(C"
+    }
+  ]
+}

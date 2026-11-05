@@ -1,0 +1,64 @@
+{
+  "split": "test_heldout",
+  "rows": 5004,
+  "decode": "greedy",
+  "checkpoint_epoch": 3,
+  "checkpoint_loss": 0.5787009328611934,
+  "exact_string_top1": 300,
+  "canonical_multiset_top1": 321,
+  "canonical_top1_rate": 0.0641,
+  "invalid_smiles": 2310,
+  "free_gb": 31.41,
+  "seconds": 373.0,
+  "examples": [
+    {
+      "product": "COC(=O)CCC(=O)c1ccc(OC2CCCCO2)cc1O",
+      "recorded_reactants": "C1=COCCC1.COC(=O)CCC(=O)c1ccc(O)cc1O",
+      "generated": "COC(=O)CCC(=O)c1ccc(OC2CCCCO2)cc1O",
+      "canonical": "COC(=O)CCC(=O)c1ccc(OC2CCCCO2)cc1O"
+    },
+    {
+      "product": "COC(=O)c1cccc(-c2nc3cccnc3[nH]2)c1",
+      "recorded_reactants": "COC(=O)c1cccc(C(=O)O)c1.Nc1cccnc1N",
+      "generated": "COC(=O)c1cccc(C(=O)OC)c1.Nc1cccnc1Cl",
+      "canonical": "COC(=O)c1cccc(C(=O)OC)c1.Nc1cccnc1Cl"
+    },
+    {
+      "product": "CON(C)C(=O)C1CCC(NC(=O)OC(C)(C)C)CC1",
+      "recorded_reactants": "CC(C)(C)OC(=O)NC1CCC(C(=O)O)CC1.CNOC",
+      "generated": "CNOC.O=C(Cl)C1CCC(NC(=O)OC(C)(C)C)CC1",
+      "canonical": "CC(C)(C)OC(=O)NC1CCC(C(=O)Cl)CC1.CNOC"
+    },
+    {
+      "product": "O=[N+]([O-])c1ccc(Cl)nc1Nc1ccc(O)cc1",
+      "recorded_reactants": "Nc1ccc(O)cc1.O=[N+]([O-])c1ccc(Cl)nc1Cl",
+      "generated": "Nc1ccc(O)cc1.Nc1ccc(O)cc1",
+      "canonical": "Nc1ccc(O)cc1.Nc1ccc(O)cc1"
+    },
+    {
+      "product": "NCC1=CC[C@@H](c2ccc(Cl)cc2Cl)[C@H]([N+](=O)[O-])C1",
+      "recorded_reactants": "[N-]=[N+]=NCC1=CC[C@@H](c2ccc(Cl)cc2Cl)[C@H]([N+](=O)[O-])C1",
+      "generated": "O=CC(CC1=CC[C@H](c2ccc(Cl)cc2Cl)[C@H](NC(=O)OC(C)(C)C)C1",
+      "canonical": null
+    },
+    {
+      "product": "CCc1oc(-c2ccc(C(F)(F)F)cc2)nc1COC[C@@H]1CCC[C@H](COC(C)(C)C(=O)O)C1",
+      "recorded_reactants": "CCc1oc(-c2ccc(C(F)(F)F)cc2)nc1COC[C@@H]1CCC[C@H](COC(C)(C)C(=O)OC(C)(C)C)C1",
+      "generated": "CCc1oc(-c2ccc(C(F)(F)F)cc2)nc1COC[C@H]1CCC[C@H](COC(C)=O)C1",
+      "canonical": "CCc1oc(-c2ccc(C(F)(F)F)cc2)nc1COC[C@H]1CCC[C@H](COC(C)=O)C1"
+    },
+    {
+      "product": "Cc1noc(C)c1NC(=O)Nc1ccc2nc(N[C@@H]3CCc4ccccc43)ccc2c1",
+      "recorded_reactants": "Cc1noc(C)c1N=C=O.Nc1ccc2nc(N[C@@H]3CCc4ccccc43)ccc2c1",
+      "generated": "Cc1noc(C)c1N=C=O.Nc1ccc2cc(N[C@@H]3CCc4ccccc43)ccc2c1",
+      "canonical": "Cc1noc(C)c1N=C=O.Nc1ccc2cc(N[C@@H]3CCc4ccccc43)ccc2c1"
+    },
+    {
+      "product": "Cc1cnc(N2CCN(C(=O)c3ccc(N4CCCS4(=O)=O)nc3C)CC2)c(C)c1",
+      "recorded_reactants": "COC(=O)c1ccc(N2CCCS2(=O)=O)nc1C.Cc1cnc(N2CCNCC2)c(C)c1",
+      "generated": "Cc1cnc(N2CCCS2(=O)=O)CC2)c(C)c1.Cc1cnc(N2CCCS2(=O)=O)CC1",
+      "canonical": null
+    }
+  ],
+  "note": "Greedy top-1 only. This is not a beam-search top-k or MRR."
+}

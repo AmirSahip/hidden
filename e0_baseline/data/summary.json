@@ -1,0 +1,27 @@
+{
+  "source": "C:\\Users\\amirs\\OneDrive\\\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b\\4year_Fall\\Senior\\retropath_four_person_experiments_2026-10-15 (2)\\retropath_four_person_experiments_2026-10-15\\data\\reactiont5_author_uspto50k",
+  "test_status": "held out; do not train on test_heldout.jsonl",
+  "splits": [
+    {
+      "split": "train",
+      "source_rows": 40029,
+      "kept": 40029,
+      "dropped": 0,
+      "path": "C:\\Users\\amirs\\CheMLT-F\\e0_baseline\\data\\train.jsonl"
+    },
+    {
+      "split": "val",
+      "source_rows": 5004,
+      "kept": 5004,
+      "dropped": 0,
+      "path": "C:\\Users\\amirs\\CheMLT-F\\e0_baseline\\data\\val.jsonl"
+    },
+    {
+      "split": "test",
+      "source_rows": 5004,
+      "kept": 5004,
+      "dropped": 0,
+      "path": "C:\\Users\\amirs\\CheMLT-F\\e0_baseline\\data\\test_heldout.jsonl"
+    }
+  ]
+}

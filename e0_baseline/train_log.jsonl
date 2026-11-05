@@ -1,0 +1,69 @@
+{"event": "start", "device": "cuda", "train_rows": 40029, "val_rows": 5004, "max_length": 160, "epochs": 3, "downloads": "none", "time": "19:46:40"}
+{"event": "step", "epoch": 1, "step": 500, "loss": 2.7525, "rows": 2000, "seconds": 74.8, "time": "19:47:55"}
+{"event": "step", "epoch": 1, "step": 1000, "loss": 2.3359, "rows": 4000, "seconds": 103.9, "time": "19:48:24"}
+{"event": "step", "epoch": 1, "step": 1500, "loss": 2.1108, "rows": 6000, "seconds": 132.2, "time": "19:48:53"}
+{"event": "step", "epoch": 1, "step": 2000, "loss": 1.9525, "rows": 8000, "seconds": 160.4, "time": "19:49:21"}
+{"event": "start", "device": "cuda", "train_rows": 40029, "val_rows": 5004, "max_length": 160, "epochs": 3, "downloads": "none", "time": "10:38:52"}
+{"event": "step", "epoch": 1, "step": 500, "loss": 2.7525, "rows": 2000, "seconds": 39.8, "free_gb": 31.48, "time": "10:39:32"}
+{"event": "step", "epoch": 1, "step": 1000, "loss": 2.3359, "rows": 4000, "seconds": 72.4, "free_gb": 31.48, "time": "10:40:05"}
+{"event": "step", "epoch": 1, "step": 1500, "loss": 2.1108, "rows": 6000, "seconds": 106.4, "free_gb": 31.48, "time": "10:40:39"}
+{"event": "step", "epoch": 1, "step": 2000, "loss": 1.9525, "rows": 8000, "seconds": 144.1, "free_gb": 31.48, "time": "10:41:16"}
+{"event": "step", "epoch": 1, "step": 2500, "loss": 1.8348, "rows": 10000, "seconds": 182.9, "free_gb": 31.48, "time": "10:41:55"}
+{"event": "step", "epoch": 1, "step": 3000, "loss": 1.7411, "rows": 12000, "seconds": 217.0, "free_gb": 31.48, "time": "10:42:29"}
+{"event": "step", "epoch": 1, "step": 3500, "loss": 1.6648, "rows": 14000, "seconds": 248.8, "free_gb": 31.48, "time": "10:43:01"}
+{"event": "step", "epoch": 1, "step": 4000, "loss": 1.6002, "rows": 16000, "seconds": 280.3, "free_gb": 31.46, "time": "10:43:33"}
+{"event": "step", "epoch": 1, "step": 4500, "loss": 1.5444, "rows": 18000, "seconds": 314.0, "free_gb": 31.46, "time": "10:44:06"}
+{"event": "step", "epoch": 1, "step": 5000, "loss": 1.4943, "rows": 20000, "seconds": 345.4, "free_gb": 31.46, "time": "10:44:38"}
+{"event": "step", "epoch": 1, "step": 5500, "loss": 1.451, "rows": 22000, "seconds": 376.4, "free_gb": 31.46, "time": "10:45:09"}
+{"event": "step", "epoch": 1, "step": 6000, "loss": 1.412, "rows": 24000, "seconds": 407.4, "free_gb": 31.46, "time": "10:45:40"}
+{"event": "step", "epoch": 1, "step": 6500, "loss": 1.3769, "rows": 26000, "seconds": 440.4, "free_gb": 31.46, "time": "10:46:13"}
+{"event": "step", "epoch": 1, "step": 7000, "loss": 1.3455, "rows": 28000, "seconds": 465.4, "free_gb": 31.46, "time": "10:46:38"}
+{"event": "step", "epoch": 1, "step": 7500, "loss": 1.3152, "rows": 30000, "seconds": 490.5, "free_gb": 31.45, "time": "10:47:03"}
+{"event": "step", "epoch": 1, "step": 8000, "loss": 1.2888, "rows": 32000, "seconds": 515.1, "free_gb": 31.45, "time": "10:47:27"}
+{"event": "step", "epoch": 1, "step": 8500, "loss": 1.265, "rows": 34000, "seconds": 540.3, "free_gb": 31.45, "time": "10:47:53"}
+{"event": "step", "epoch": 1, "step": 9000, "loss": 1.2414, "rows": 36000, "seconds": 563.7, "free_gb": 31.45, "time": "10:48:16"}
+{"event": "step", "epoch": 1, "step": 9500, "loss": 1.2202, "rows": 38000, "seconds": 588.1, "free_gb": 31.45, "time": "10:48:40"}
+{"event": "step", "epoch": 1, "step": 10000, "loss": 1.2009, "rows": 40000, "seconds": 611.8, "free_gb": 31.45, "time": "10:49:04"}
+{"event": "epoch", "epoch": 1, "loss": 1.2005, "checkpoint": "C:\\Users\\amirs\\CheMLT-F\\e0_baseline\\checkpoints\\decoder_latest.pt", "val_preview": [{"product": "CCCCCCCNC(=O)N(C)c1cccc(-c2ccc(CCC(=O)OC)cc2OCCCCl)c1", "recorded_reactants": "CCCCCCCNC(=O)N(C)c1cccc(-c2ccc(CCC(=O)OC)cc2O)c1.ClCCCI", "generated": "CCCCCCCCN.COC(=O)c1cccc(Br)c1.COC(=O)c1cccc(Br)c1"}, {"product": "O=C(O)/C=C/c1cnc(Cl)c(Cl)c1", "recorded_reactants": "COC(=O)/C=C/c1cnc(Cl)c(Cl)c1", "generated": "CCOC(=O)/C=C/c1cnc(Cl)c(Cl)c1"}, {"product": "CC(=O)Nc1cccc(C(O)CN(C)Cc2sc3c(=O)c(C(=O)NCc4ccc(Cl)cc4)cn(C)c3c2C)c1", "recorded_reactants": "CNCC(O)c1cccc(NC(C)=O)c1.Cc1c(CCl)sc2c(=O)c(C(=O)NCc3ccc(Cl)cc3)cn(C)c12", "generated": "CN(Cc1cccc(C(=O)NCc2c(C(=O)c3c(C(=O)NCc4ccc(Cl)cc3)c12.NCc1ccc(Cl)cc1"}, {"product": "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC(=O)CCCN2CCSCC2)c2c(c1)OC(C)(C)C1=C2CCS1", "recorded_reactants": "CCCCCCCCCCCCCCCCCCC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2CCS1.O=C(O)CCCN1CCSCC1", "generated": "CC(C)c1cc(O)c2c(OC(C)(C)C(C)(C)C(C)(C)O2)c2CCS1"}], "time": "10:49:05"}
+{"event": "step", "epoch": 2, "step": 500, "loss": 0.7795, "rows": 2000, "seconds": 23.8, "free_gb": 31.39, "time": "10:49:29"}
+{"event": "step", "epoch": 2, "step": 1000, "loss": 0.7627, "rows": 4000, "seconds": 47.5, "free_gb": 31.38, "time": "10:49:52"}
+{"event": "step", "epoch": 2, "step": 1500, "loss": 0.7595, "rows": 6000, "seconds": 71.0, "free_gb": 31.38, "time": "10:50:16"}
+{"event": "step", "epoch": 2, "step": 2000, "loss": 0.7561, "rows": 8000, "seconds": 94.5, "free_gb": 31.38, "time": "10:50:40"}
+{"event": "step", "epoch": 2, "step": 2500, "loss": 0.7524, "rows": 10000, "seconds": 117.8, "free_gb": 31.38, "time": "10:51:03"}
+{"event": "step", "epoch": 2, "step": 3000, "loss": 0.7511, "rows": 12000, "seconds": 141.4, "free_gb": 31.38, "time": "10:51:26"}
+{"event": "step", "epoch": 2, "step": 3500, "loss": 0.7477, "rows": 14000, "seconds": 164.8, "free_gb": 31.38, "time": "10:51:50"}
+{"event": "step", "epoch": 2, "step": 4000, "loss": 0.7436, "rows": 16000, "seconds": 188.2, "free_gb": 31.38, "time": "10:52:13"}
+{"event": "step", "epoch": 2, "step": 4500, "loss": 0.7403, "rows": 18000, "seconds": 211.8, "free_gb": 31.38, "time": "10:52:37"}
+{"event": "step", "epoch": 2, "step": 5000, "loss": 0.7361, "rows": 20000, "seconds": 236.3, "free_gb": 31.38, "time": "10:53:01"}
+{"event": "step", "epoch": 2, "step": 5500, "loss": 0.7306, "rows": 22000, "seconds": 260.1, "free_gb": 31.38, "time": "10:53:25"}
+{"event": "step", "epoch": 2, "step": 6000, "loss": 0.7266, "rows": 24000, "seconds": 283.5, "free_gb": 31.38, "time": "10:53:48"}
+{"event": "step", "epoch": 2, "step": 6500, "loss": 0.7239, "rows": 26000, "seconds": 307.3, "free_gb": 31.38, "time": "10:54:12"}
+{"event": "step", "epoch": 2, "step": 7000, "loss": 0.7204, "rows": 28000, "seconds": 331.4, "free_gb": 31.38, "time": "10:54:36"}
+{"event": "step", "epoch": 2, "step": 7500, "loss": 0.7159, "rows": 30000, "seconds": 356.5, "free_gb": 31.38, "time": "10:55:01"}
+{"event": "step", "epoch": 2, "step": 8000, "loss": 0.7131, "rows": 32000, "seconds": 380.6, "free_gb": 31.38, "time": "10:55:26"}
+{"event": "step", "epoch": 2, "step": 8500, "loss": 0.7108, "rows": 34000, "seconds": 405.2, "free_gb": 31.38, "time": "10:55:50"}
+{"event": "step", "epoch": 2, "step": 9000, "loss": 0.7071, "rows": 36000, "seconds": 430.5, "free_gb": 31.39, "time": "10:56:15"}
+{"event": "step", "epoch": 2, "step": 9500, "loss": 0.7034, "rows": 38000, "seconds": 454.7, "free_gb": 31.39, "time": "10:56:40"}
+{"event": "step", "epoch": 2, "step": 10000, "loss": 0.7008, "rows": 40000, "seconds": 491.9, "free_gb": 31.38, "time": "10:57:17"}
+{"event": "epoch", "epoch": 2, "loss": 0.7008, "checkpoint": "C:\\Users\\amirs\\CheMLT-F\\e0_baseline\\checkpoints\\decoder_latest.pt", "val_preview": [{"product": "CCCCCCCNC(=O)N(C)c1cccc(-c2ccc(CCC(=O)OC)cc2OCCCCl)c1", "recorded_reactants": "CCCCCCCNC(=O)N(C)c1cccc(-c2ccc(CCC(=O)OC)cc2O)c1.ClCCCI", "generated": "CCCCCCCNC(=O)N(C)c1ccc(B2OC(C)(C)C(C)(C)O2)c1.CI"}, {"product": "O=C(O)/C=C/c1cnc(Cl)c(Cl)c1", "recorded_reactants": "COC(=O)/C=C/c1cnc(Cl)c(Cl)c1", "generated": "CCOC(=O)/C=C/c1cnc(Cl)c(Cl)c1"}, {"product": "CC(=O)Nc1cccc(C(O)CN(C)Cc2sc3c(=O)c(C(=O)NCc4ccc(Cl)cc4)cn(C)c3c2C)c1", "recorded_reactants": "CNCC(O)c1cccc(NC(C)=O)c1.Cc1c(CCl)sc2c(=O)c(C(=O)NCc3ccc(Cl)cc3)cn(C)c12", "generated": "CC(=O)Cl.CNCc1c(C(=O)NCc2ccc(Cl)cc2)c2c(C(=O)NCc2ccc(Cl)cc2)c1C"}, {"product": "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC(=O)CCCN2CCSCC2)c2c(c1)OC(C)(C)C1=C2CCS1", "recorded_reactants": "CCCCCCCCCCCCCCCCCCC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2CCS1.O=C(O)CCCN1CCSCC1", "generated": "CC(C)c1cc(O)c2c(c1)OC(C)(C)C2=C1.OO"}], "time": "10:57:19"}
+{"event": "step", "epoch": 3, "step": 500, "loss": 0.5909, "rows": 2000, "seconds": 34.0, "free_gb": 31.39, "time": "10:57:53"}
+{"event": "step", "epoch": 3, "step": 1000, "loss": 0.5956, "rows": 4000, "seconds": 66.0, "free_gb": 31.39, "time": "10:58:25"}
+{"event": "step", "epoch": 3, "step": 1500, "loss": 0.5985, "rows": 6000, "seconds": 99.7, "free_gb": 31.39, "time": "10:58:59"}
+{"event": "step", "epoch": 3, "step": 2000, "loss": 0.5988, "rows": 8000, "seconds": 132.0, "free_gb": 31.39, "time": "10:59:31"}
+{"event": "step", "epoch": 3, "step": 2500, "loss": 0.5931, "rows": 10000, "seconds": 163.9, "free_gb": 31.39, "time": "11:00:03"}
+{"event": "step", "epoch": 3, "step": 3000, "loss": 0.5937, "rows": 12000, "seconds": 196.9, "free_gb": 31.39, "time": "11:00:36"}
+{"event": "step", "epoch": 3, "step": 3500, "loss": 0.5936, "rows": 14000, "seconds": 228.7, "free_gb": 31.39, "time": "11:01:07"}
+{"event": "step", "epoch": 3, "step": 4000, "loss": 0.5927, "rows": 16000, "seconds": 259.9, "free_gb": 31.39, "time": "11:01:39"}
+{"event": "step", "epoch": 3, "step": 4500, "loss": 0.5922, "rows": 18000, "seconds": 291.7, "free_gb": 31.39, "time": "11:02:11"}
+{"event": "step", "epoch": 3, "step": 5000, "loss": 0.5905, "rows": 20000, "seconds": 324.5, "free_gb": 31.38, "time": "11:02:43"}
+{"event": "step", "epoch": 3, "step": 5500, "loss": 0.5887, "rows": 22000, "seconds": 359.3, "free_gb": 31.38, "time": "11:03:18"}
+{"event": "step", "epoch": 3, "step": 6000, "loss": 0.5882, "rows": 24000, "seconds": 390.0, "free_gb": 31.38, "time": "11:03:49"}
+{"event": "step", "epoch": 3, "step": 6500, "loss": 0.5865, "rows": 26000, "seconds": 422.7, "free_gb": 31.38, "time": "11:04:22"}
+{"event": "step", "epoch": 3, "step": 7000, "loss": 0.5842, "rows": 28000, "seconds": 454.9, "free_gb": 31.38, "time": "11:04:54"}
+{"event": "step", "epoch": 3, "step": 7500, "loss": 0.5837, "rows": 30000, "seconds": 485.2, "free_gb": 31.38, "time": "11:05:24"}
+{"event": "step", "epoch": 3, "step": 8000, "loss": 0.5822, "rows": 32000, "seconds": 515.9, "free_gb": 31.38, "time": "11:05:55"}
+{"event": "step", "epoch": 3, "step": 8500, "loss": 0.5808, "rows": 34000, "seconds": 549.1, "free_gb": 31.38, "time": "11:06:28"}
+{"event": "step", "epoch": 3, "step": 9000, "loss": 0.5797, "rows": 36000, "seconds": 581.7, "free_gb": 31.38, "time": "11:07:01"}
+{"event": "step", "epoch": 3, "step": 9500, "loss": 0.5793, "rows": 38000, "seconds": 615.7, "free_gb": 31.38, "time": "11:07:35"}
+{"event": "step", "epoch": 3, "step": 10000, "loss": 0.5788, "rows": 40000, "seconds": 648.9, "free_gb": 31.38, "time": "11:08:08"}
+{"event": "epoch", "epoch": 3, "loss": 0.5787, "checkpoint": "C:\\Users\\amirs\\CheMLT-F\\e0_baseline\\checkpoints\\decoder_latest.pt", "val_preview": [{"product": "CCCCCCCNC(=O)N(C)c1cccc(-c2ccc(CCC(=O)OC)cc2OCCCCl)c1", "recorded_reactants": "CCCCCCCNC(=O)N(C)c1cccc(-c2ccc(CCC(=O)OC)cc2O)c1.ClCCCI", "generated": "CCCCCCCNC(=O)Cl.CCCCCCCNC(=O)N(C)c1ccc(-c2ccc(CCC(=O)OC)cc2O)c1"}, {"product": "O=C(O)/C=C/c1cnc(Cl)c(Cl)c1", "recorded_reactants": "COC(=O)/C=C/c1cnc(Cl)c(Cl)c1", "generated": "COC(=O)/C=C/c1cnc(Cl)c(Cl)c1"}, {"product": "CC(=O)Nc1cccc(C(O)CN(C)Cc2sc3c(=O)c(C(=O)NCc4ccc(Cl)cc4)cn(C)c3c2C)c1", "recorded_reactants": "CNCC(O)c1cccc(NC(C)=O)c1.Cc1c(CCl)sc2c(=O)c(C(=O)NCc3ccc(Cl)cc3)cn(C)c12", "generated": "CC(=O)Nc1cccc(C(=O)O)c1.Cn1c(C(=O)NCc2ccc(Cl)cc2)c(=O)c(=O)c2cn(C)cc2)c1"}, {"product": "CCCCCCCCCCCCCCCCCCC(C)c1cc(OC(=O)CCCN2CCSCC2)c2c(c1)OC(C)(C)C1=C2CCS1", "recorded_reactants": "CCCCCCCCCCCCCCCCCCC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2CCS1.O=C(O)CCCN1CCSCC1", "generated": "CCCCCCCCCCCCCCCCCC.CC(C)c1cc(O)c2c(c1)OC(C)(C)C1=C2SCCN1"}], "time": "11:08:09"}
